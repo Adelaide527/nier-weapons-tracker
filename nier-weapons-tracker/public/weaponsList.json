@@ -5,6 +5,18 @@
     "own": true,
     "upgrades": [
         {
+            "id": 37,
+            "weapon": "Ancient Overlord",
+            "level": 1,
+            "qty1": 4,
+            "item1": "Silver Ore",
+            "qty2": 10,
+            "item2": "Broken Motor",
+            "qty3": null,
+            "item3": null,
+            "upgrade": true
+        },
+        {
             "id": 38,
             "weapon": "Ancient Overlord",
             "level": 2,
@@ -27,18 +39,6 @@
             "qty3": 2,
             "item3": "Memory Alloy",
             "upgrade": false
-        },
-        {
-            "id": 37,
-            "weapon": "Ancient Overlord",
-            "level": 1,
-            "qty1": 4,
-            "item1": "Silver Ore",
-            "qty2": 10,
-            "item2": "Broken Motor",
-            "qty3": null,
-            "item3": null,
-            "upgrade": true
         }
     ]
   },
@@ -48,16 +48,16 @@
     "own": true,
     "upgrades": [
         {
-            "id": 45,
+            "id": 43,
             "weapon": "Axe of Beheading",
-            "level": 3,
-            "qty1": 18,
+            "level": 1,
+            "qty1": 10,
             "item1": "Copper Ore",
-            "qty2": 2,
-            "item2": "Stopped Clock",
-            "qty3": 1,
-            "item3": "Meteorite",
-            "upgrade": false
+            "qty2": null,
+            "item2": null,
+            "qty3": null,
+            "item3": null,
+            "upgrade": true
         },
         {
             "id": 44,
@@ -72,16 +72,16 @@
             "upgrade": false
         },
         {
-            "id": 43,
+            "id": 45,
             "weapon": "Axe of Beheading",
-            "level": 1,
-            "qty1": 10,
+            "level": 3,
+            "qty1": 18,
             "item1": "Copper Ore",
-            "qty2": null,
-            "item2": null,
-            "qty3": null,
-            "item3": null,
-            "upgrade": true
+            "qty2": 2,
+            "item2": "Stopped Clock",
+            "qty3": 1,
+            "item3": "Meteorite",
+            "upgrade": false
         }
     ]
   },
@@ -90,6 +90,18 @@
     "type": "One-Handed Sword",
     "own": true,
     "upgrades": [
+        {
+            "id": 7,
+            "weapon": "Beastbain",
+            "level": 1,
+            "qty1": 12,
+            "item1": "Iron Ore",
+            "qty2": 1,
+            "item2": "Complex Machine",
+            "qty3": null,
+            "item3": null,
+            "upgrade": false
+        },
         {
             "id": 8,
             "weapon": "Beastbain",
@@ -113,18 +125,6 @@
             "qty3": 1,
             "item3": "Crystal",
             "upgrade": false
-        },
-        {
-            "id": 7,
-            "weapon": "Beastbain",
-            "level": 1,
-            "qty1": 12,
-            "item1": "Iron Ore",
-            "qty2": 1,
-            "item2": "Complex Machine",
-            "qty3": null,
-            "item3": null,
-            "upgrade": false
         }
     ]
   },
@@ -133,18 +133,6 @@
     "type": "Spears",
     "own": true,
     "upgrades": [
-        {
-            "id": 77,
-            "weapon": "Beastcurse",
-            "level": 2,
-            "qty1": 2,
-            "item1": "Silver Ore",
-            "qty2": 1,
-            "item2": "Complex Machine",
-            "qty3": 1,
-            "item3": "Machine Oil",
-            "upgrade": false
-        },
         {
             "id": 76,
             "weapon": "Beastcurse",
@@ -155,6 +143,18 @@
             "item2": "Complex Machine",
             "qty3": null,
             "item3": null,
+            "upgrade": false
+        },
+        {
+            "id": 77,
+            "weapon": "Beastcurse",
+            "level": 2,
+            "qty1": 2,
+            "item1": "Silver Ore",
+            "qty2": 1,
+            "item2": "Complex Machine",
+            "qty3": 1,
+            "item3": "Machine Oil",
             "upgrade": false
         },
         {
@@ -177,16 +177,16 @@
     "own": true,
     "upgrades": [
         {
-            "id": 54,
+            "id": 52,
             "weapon": "Beastlord",
-            "level": 3,
-            "qty1": 3,
+            "level": 1,
+            "qty1": 1,
             "item1": "Gold Ore",
             "qty2": 1,
-            "item2": "Amber",
-            "qty3": 2,
-            "item3": "Simple Machine",
-            "upgrade": false
+            "item2": "Complex Machine",
+            "qty3": null,
+            "item3": null,
+            "upgrade": true
         },
         {
             "id": 53,
@@ -201,16 +201,16 @@
             "upgrade": false
         },
         {
-            "id": 52,
+            "id": 54,
             "weapon": "Beastlord",
-            "level": 1,
-            "qty1": 1,
+            "level": 3,
+            "qty1": 3,
             "item1": "Gold Ore",
             "qty2": 1,
-            "item2": "Complex Machine",
-            "qty3": null,
-            "item3": null,
-            "upgrade": true
+            "item2": "Amber",
+            "qty3": 2,
+            "item3": "Simple Machine",
+            "upgrade": false
         }
     ]
   },
@@ -219,6 +219,18 @@
     "type": "One-Handed Sword",
     "own": true,
     "upgrades": [
+        {
+            "id": 22,
+            "weapon": "Blade of Treachery",
+            "level": 1,
+            "qty1": 10,
+            "item1": "Copper Ore",
+            "qty2": 1,
+            "item2": "Simple Machine",
+            "qty3": null,
+            "item3": null,
+            "upgrade": true
+        },
         {
             "id": 23,
             "weapon": "Blade of Treachery",
@@ -242,18 +254,6 @@
             "qty3": 1,
             "item3": "Rusted Clump",
             "upgrade": false
-        },
-        {
-            "id": 22,
-            "weapon": "Blade of Treachery",
-            "level": 1,
-            "qty1": 10,
-            "item1": "Copper Ore",
-            "qty2": 1,
-            "item2": "Simple Machine",
-            "qty3": null,
-            "item3": null,
-            "upgrade": true
         }
     ]
   },
@@ -262,6 +262,18 @@
     "type": "Spears",
     "own": false,
     "upgrades": [
+        {
+            "id": 79,
+            "weapon": "Captain's Holy Spear",
+            "level": 1,
+            "qty1": 2,
+            "item1": "Silver Ore",
+            "qty2": 2,
+            "item2": "Broken Wristwatch",
+            "qty3": null,
+            "item3": null,
+            "upgrade": false
+        },
         {
             "id": 80,
             "weapon": "Captain's Holy Spear",
@@ -285,18 +297,6 @@
             "qty3": 1,
             "item3": "Complex Machine",
             "upgrade": false
-        },
-        {
-            "id": 79,
-            "weapon": "Captain's Holy Spear",
-            "level": 1,
-            "qty1": 2,
-            "item1": "Silver Ore",
-            "qty2": 2,
-            "item2": "Broken Wristwatch",
-            "qty3": null,
-            "item3": null,
-            "upgrade": false
         }
     ]
   },
@@ -306,15 +306,15 @@
     "own": true,
     "upgrades": [
         {
-            "id": 84,
+            "id": 82,
             "weapon": "Dragoon Lance",
-            "level": 3,
-            "qty1": 5,
+            "level": 1,
+            "qty1": 3,
             "item1": "Silver Ore",
-            "qty2": 3,
-            "item2": "Meteorite",
-            "qty3": 3,
-            "item3": "Simple Machine",
+            "qty2": 1,
+            "item2": "Pyrite",
+            "qty3": null,
+            "item3": null,
             "upgrade": false
         },
         {
@@ -330,17 +330,19 @@
             "upgrade": false
         },
         {
-            "id": 82,
+            "id": 84,
             "weapon": "Dragoon Lance",
-            "level": 1,
-            "qty1": 3,
+            "level": 3,
+            "qty1": 5,
             "item1": "Silver Ore",
-            "qty2": 1,
-            "item2": "Pyrite",
-            "qty3": null,
-            "item3": null,
+            "qty2": 3,
+            "item2": "Meteorite",
+            "qty3": 3,
+            "item3": "Simple Machine",
             "upgrade": false
         }
+        
+
     ]
   },
   {
@@ -349,15 +351,15 @@
     "own": true,
     "upgrades": [
         {
-            "id": 21,
+            "id": 19,
             "weapon": "Earth Wyrm's Claw",
-            "level": 3,
-            "qty1": 10,
+            "level": 1,
+            "qty1": 8,
             "item1": "Iron Ore",
-            "qty2": 15,
-            "item2": "Clay",
-            "qty3": 1,
-            "item3": "Amber",
+            "qty2": 10,
+            "item2": "Scorpion Claw",
+            "qty3": null,
+            "item3": null,
             "upgrade": true
         },
         {
@@ -373,17 +375,19 @@
             "upgrade": true
         },
         {
-            "id": 19,
+            "id": 21,
             "weapon": "Earth Wyrm's Claw",
-            "level": 1,
-            "qty1": 8,
+            "level": 3,
+            "qty1": 10,
             "item1": "Iron Ore",
-            "qty2": 10,
-            "item2": "Scorpion Claw",
-            "qty3": null,
-            "item3": null,
+            "qty2": 15,
+            "item2": "Clay",
+            "qty3": 1,
+            "item3": "Amber",
             "upgrade": true
         }
+
+
     ]
   },
   {
@@ -391,6 +395,18 @@
     "type": "One-Handed Sword",
     "own": true,
     "upgrades": [
+        {
+            "id": 25,
+            "weapon": "Faith",
+            "level": 1,
+            "qty1": 3,
+            "item1": "Silver Ore",
+            "qty2": 3,
+            "item2": "Broken Antenna",
+            "qty3": null,
+            "item3": null,
+            "upgrade": true
+        },
         {
             "id": 26,
             "weapon": "Faith",
@@ -414,18 +430,6 @@
             "qty3": 4,
             "item3": "Titanium Alloy",
             "upgrade": true
-        },
-        {
-            "id": 25,
-            "weapon": "Faith",
-            "level": 1,
-            "qty1": 3,
-            "item1": "Silver Ore",
-            "qty2": 3,
-            "item2": "Broken Antenna",
-            "qty3": null,
-            "item3": null,
-            "upgrade": true
         }
     ]
   },
@@ -434,18 +438,6 @@
     "type": "Two-Handed Sword",
     "own": true,
     "upgrades": [
-        {
-            "id": 47,
-            "weapon": "Fang of the Twins",
-            "level": 2,
-            "qty1": 5,
-            "item1": "Silver Ore",
-            "qty2": 2,
-            "item2": "Broken Wristwatch",
-            "qty3": 1,
-            "item3": "Stopped Clock",
-            "upgrade": false
-        },
         {
             "id": 46,
             "weapon": "Fang of the Twins",
@@ -457,6 +449,18 @@
             "qty3": null,
             "item3": null,
             "upgrade": true
+        },
+        {
+            "id": 47,
+            "weapon": "Fang of the Twins",
+            "level": 2,
+            "qty1": 5,
+            "item1": "Silver Ore",
+            "qty2": 2,
+            "item2": "Broken Wristwatch",
+            "qty3": 1,
+            "item3": "Stopped Clock",
+            "upgrade": false
         },
         {
             "id": 48,
@@ -477,18 +481,6 @@
     "type": "One-Handed Sword",
     "own": false,
     "upgrades": [
-        {
-            "id": 36,
-            "weapon": "Iron Pipe",
-            "level": 3,
-            "qty1": 8,
-            "item1": "Dented Metal Bat",
-            "qty2": 20,
-            "item2": "Broken Arm",
-            "qty3": 5,
-            "item3": "Rusted Clump",
-            "upgrade": false
-        },
         {
             "id": 34,
             "weapon": "Iron Pipe",
@@ -512,6 +504,18 @@
             "qty3": 10,
             "item3": "Rusty Bucket",
             "upgrade": false
+        },
+        {
+            "id": 36,
+            "weapon": "Iron Pipe",
+            "level": 3,
+            "qty1": 8,
+            "item1": "Dented Metal Bat",
+            "qty2": 20,
+            "item2": "Broken Arm",
+            "qty3": 5,
+            "item3": "Rusted Clump",
+            "upgrade": false
         }
     ]
   },
@@ -520,18 +524,6 @@
     "type": "Two-Handed Sword",
     "own": true,
     "upgrades": [
-        {
-            "id": 56,
-            "weapon": "Iron Will",
-            "level": 2,
-            "qty1": 1,
-            "item1": "Memory Alloy",
-            "qty2": null,
-            "item2": null,
-            "qty3": null,
-            "item3": null,
-            "upgrade": false
-        },
         {
             "id": 55,
             "weapon": "Iron Will",
@@ -543,6 +535,18 @@
             "qty3": null,
             "item3": null,
             "upgrade": true
+        },
+        {
+            "id": 56,
+            "weapon": "Iron Will",
+            "level": 2,
+            "qty1": 1,
+            "item1": "Memory Alloy",
+            "qty2": null,
+            "item2": null,
+            "qty3": null,
+            "item3": null,
+            "upgrade": false
         },
         {
             "id": 57,
@@ -563,6 +567,18 @@
     "type": "Two-Handed Sword",
     "own": true,
     "upgrades": [
+        {
+            "id": 40,
+            "weapon": "Kusanagi",
+            "level": 1,
+            "qty1": 10,
+            "item1": "Iron Ore",
+            "qty2": null,
+            "item2": null,
+            "qty3": null,
+            "item3": null,
+            "upgrade": true
+        },
         {
             "id": 41,
             "weapon": "Kusanagi",
@@ -586,18 +602,6 @@
             "qty3": 1,
             "item3": "Moldavite",
             "upgrade": false
-        },
-        {
-            "id": 40,
-            "weapon": "Kusanagi",
-            "level": 1,
-            "qty1": 10,
-            "item1": "Iron Ore",
-            "qty2": null,
-            "item2": null,
-            "qty3": null,
-            "item3": null,
-            "upgrade": true
         }
     ]
   },
@@ -607,10 +611,10 @@
     "own": true,
     "upgrades": [
         {
-            "id": 89,
+            "id": 88,
             "weapon": "Labyrinth's Shout",
-            "level": 2,
-            "qty1": 2,
+            "level": 1,
+            "qty1": 1,
             "item1": "Fluorite",
             "qty2": null,
             "item2": null,
@@ -619,10 +623,10 @@
             "upgrade": true
         },
         {
-            "id": 88,
+            "id": 89,
             "weapon": "Labyrinth's Shout",
-            "level": 1,
-            "qty1": 1,
+            "level": 2,
+            "qty1": 2,
             "item1": "Fluorite",
             "qty2": null,
             "item2": null,
@@ -693,16 +697,16 @@
     "own": true,
     "upgrades": [
         {
-            "id": 33,
+            "id": 31,
             "weapon": "Labyrinth's Whisper",
-            "level": 3,
-            "qty1": 2,
+            "level": 1,
+            "qty1": 1,
             "item1": "Fluorite",
             "qty2": null,
             "item2": null,
             "qty3": null,
             "item3": null,
-            "upgrade": false
+            "upgrade": true
         },
         {
             "id": 32,
@@ -717,16 +721,16 @@
             "upgrade": true
         },
         {
-            "id": 31,
+            "id": 33,
             "weapon": "Labyrinth's Whisper",
-            "level": 1,
-            "qty1": 1,
+            "level": 3,
+            "qty1": 2,
             "item1": "Fluorite",
             "qty2": null,
             "item2": null,
             "qty3": null,
             "item3": null,
-            "upgrade": true
+            "upgrade": false
         }
     ]
   },
@@ -735,18 +739,6 @@
     "type": "One-Handed Sword",
     "own": true,
     "upgrades": [
-        {
-            "id": 6,
-            "weapon": "Lily-Leaf Sword",
-            "level": 3,
-            "qty1": 2,
-            "item1": "Titanium Alloy",
-            "qty2": 2,
-            "item2": "Forlorn Necklace",
-            "qty3": 1,
-            "item3": "Pyrite",
-            "upgrade": false
-        },
         {
             "id": 4,
             "weapon": "Lily-Leaf Sword",
@@ -770,7 +762,20 @@
             "qty3": 1,
             "item3": "Large Gear",
             "upgrade": false
+        },
+        {
+            "id": 6,
+            "weapon": "Lily-Leaf Sword",
+            "level": 3,
+            "qty1": 2,
+            "item1": "Titanium Alloy",
+            "qty2": 2,
+            "item2": "Forlorn Necklace",
+            "qty3": 1,
+            "item3": "Pyrite",
+            "upgrade": false
         }
+
     ]
   },
   {
@@ -778,18 +783,6 @@
     "type": "One-Handed Sword",
     "own": true,
     "upgrades": [
-        {
-            "id": 14,
-            "weapon": "Moonrise",
-            "level": 2,
-            "qty1": 1,
-            "item1": "Titanium Alloy",
-            "qty2": 1,
-            "item2": "Broken Lens",
-            "qty3": 1,
-            "item3": "Broken Saw",
-            "upgrade": true
-        },
         {
             "id": 13,
             "weapon": "Moonrise",
@@ -800,6 +793,18 @@
             "item2": "Broken Saw",
             "qty3": null,
             "item3": null,
+            "upgrade": true
+        },
+        {
+            "id": 14,
+            "weapon": "Moonrise",
+            "level": 2,
+            "qty1": 1,
+            "item1": "Titanium Alloy",
+            "qty2": 1,
+            "item2": "Broken Lens",
+            "qty3": 1,
+            "item3": "Broken Saw",
             "upgrade": true
         },
         {
@@ -834,18 +839,6 @@
             "upgrade": true
         },
         {
-            "id": 3,
-            "weapon": "Nameless Blade",
-            "level": 3,
-            "qty1": 2,
-            "item1": "Titanium Alloy",
-            "qty2": 1,
-            "item2": "Dented Metal Bat",
-            "qty3": 1,
-            "item3": "Simple Machine",
-            "upgrade": false
-        },
-        {
             "id": 2,
             "weapon": "Nameless Blade",
             "level": 2,
@@ -856,6 +849,18 @@
             "qty3": 3,
             "item3": "Broken Arm",
             "upgrade": true
+        },
+        {
+            "id": 3,
+            "weapon": "Nameless Blade",
+            "level": 3,
+            "qty1": 2,
+            "item1": "Titanium Alloy",
+            "qty2": 1,
+            "item2": "Dented Metal Bat",
+            "qty3": 1,
+            "item3": "Simple Machine",
+            "upgrade": false
         }
     ]
   },
@@ -865,16 +870,16 @@
     "own": true,
     "upgrades": [
         {
-            "id": 12,
+            "id": 10,
             "weapon": "Nirvana Dagger",
-            "level": 3,
+            "level": 1,
             "qty1": 1,
             "item1": "Titanium Alloy",
-            "qty2": 3,
-            "item2": "Mysterious Switch",
-            "qty3": 1,
-            "item3": "Pyrite",
-            "upgrade": false
+            "qty2": 2,
+            "item2": "Rusty Kitchen Knife",
+            "qty3": null,
+            "item3": null,
+            "upgrade": true
         },
         {
             "id": 11,
@@ -889,16 +894,16 @@
             "upgrade": true
         },
         {
-            "id": 10,
+            "id": 12,
             "weapon": "Nirvana Dagger",
-            "level": 1,
+            "level": 3,
             "qty1": 1,
             "item1": "Titanium Alloy",
-            "qty2": 2,
-            "item2": "Rusty Kitchen Knife",
-            "qty3": null,
-            "item3": null,
-            "upgrade": true
+            "qty2": 3,
+            "item2": "Mysterious Switch",
+            "qty3": 1,
+            "item3": "Pyrite",
+            "upgrade": false
         }
     ]
   },
@@ -920,18 +925,6 @@
             "upgrade": false
         },
         {
-            "id": 30,
-            "weapon": "Phoenix Dagger",
-            "level": 3,
-            "qty1": 1,
-            "item1": "Silver Ore",
-            "qty2": 5,
-            "item2": "Black Pearl",
-            "qty3": 2,
-            "item3": "Amber",
-            "upgrade": false
-        },
-        {
             "id": 29,
             "weapon": "Phoenix Dagger",
             "level": 2,
@@ -942,7 +935,20 @@
             "qty3": 2,
             "item3": "Broken Earring",
             "upgrade": false
+        },
+        {
+            "id": 30,
+            "weapon": "Phoenix Dagger",
+            "level": 3,
+            "qty1": 1,
+            "item1": "Silver Ore",
+            "qty2": 5,
+            "item2": "Black Pearl",
+            "qty3": 2,
+            "item3": "Amber",
+            "upgrade": false
         }
+
     ]
   },
   {
@@ -963,18 +969,6 @@
             "upgrade": false
         },
         {
-            "id": 87,
-            "weapon": "Phoenix Spear",
-            "level": 3,
-            "qty1": 3,
-            "item1": "Gold Ore",
-            "qty2": 5,
-            "item2": "Black Pearl",
-            "qty3": 1,
-            "item3": "Moldavite",
-            "upgrade": false
-        },
-        {
             "id": 86,
             "weapon": "Phoenix Spear",
             "level": 2,
@@ -985,7 +979,20 @@
             "qty3": 1,
             "item3": "Broken Wristwatch",
             "upgrade": false
+        },
+        {
+            "id": 87,
+            "weapon": "Phoenix Spear",
+            "level": 3,
+            "qty1": 3,
+            "item1": "Gold Ore",
+            "qty2": 5,
+            "item2": "Black Pearl",
+            "qty3": 1,
+            "item3": "Moldavite",
+            "upgrade": false
         }
+
     ]
   },
   {
@@ -993,18 +1000,6 @@
     "type": "Two-Handed Sword",
     "own": true,
     "upgrades": [
-        {
-            "id": 60,
-            "weapon": "Phoenix Sword",
-            "level": 3,
-            "qty1": 4,
-            "item1": "Gold Ore",
-            "qty2": 5,
-            "item2": "Black Pearl",
-            "qty3": 1,
-            "item3": "Moldavite",
-            "upgrade": false
-        },
         {
             "id": 58,
             "weapon": "Phoenix Sword",
@@ -1028,7 +1023,20 @@
             "qty3": 1,
             "item3": "Complex Machine",
             "upgrade": false
+        },
+        {
+            "id": 60,
+            "weapon": "Phoenix Sword",
+            "level": 3,
+            "qty1": 4,
+            "item1": "Gold Ore",
+            "qty2": 5,
+            "item2": "Black Pearl",
+            "qty3": 1,
+            "item3": "Moldavite",
+            "upgrade": false
         }
+
     ]
   },
   {
@@ -1049,18 +1057,6 @@
             "upgrade": true
         },
         {
-            "id": 18,
-            "weapon": "Rebirth",
-            "level": 3,
-            "qty1": 20,
-            "item1": "Iron Ore",
-            "qty2": 3,
-            "item2": "Broken Wristwatch",
-            "qty3": 1,
-            "item3": "Amber",
-            "upgrade": false
-        },
-        {
             "id": 17,
             "weapon": "Rebirth",
             "level": 2,
@@ -1071,7 +1067,20 @@
             "qty3": 1,
             "item3": "Broken Battery",
             "upgrade": true
+        },
+        {
+            "id": 18,
+            "weapon": "Rebirth",
+            "level": 3,
+            "qty1": 20,
+            "item1": "Iron Ore",
+            "qty2": 3,
+            "item2": "Broken Wristwatch",
+            "qty3": 1,
+            "item3": "Amber",
+            "upgrade": false
         }
+
     ]
   },
   {
@@ -1135,18 +1144,6 @@
             "upgrade": false
         },
         {
-            "id": 75,
-            "weapon": "Sunrise",
-            "level": 3,
-            "qty1": 3,
-            "item1": "Silver Ore",
-            "qty2": 1,
-            "item2": "Subdued Bracelet",
-            "qty3": 1,
-            "item3": "Pyrite",
-            "upgrade": false
-        },
-        {
             "id": 74,
             "weapon": "Sunrise",
             "level": 2,
@@ -1157,7 +1154,20 @@
             "qty3": 1,
             "item3": "Forlorn Necklace",
             "upgrade": false
+        },
+        {
+            "id": 75,
+            "weapon": "Sunrise",
+            "level": 3,
+            "qty1": 3,
+            "item1": "Silver Ore",
+            "qty2": 1,
+            "item2": "Subdued Bracelet",
+            "qty3": 1,
+            "item3": "Pyrite",
+            "upgrade": false
         }
+
     ]
   },
   {
@@ -1221,18 +1231,6 @@
             "upgrade": true
         },
         {
-            "id": 66,
-            "weapon": "Transience",
-            "level": 3,
-            "qty1": 4,
-            "item1": "Iron Ore",
-            "qty2": 2,
-            "item2": "Crystal",
-            "qty3": 1,
-            "item3": "Pyrite",
-            "upgrade": false
-        },
-        {
             "id": 65,
             "weapon": "Transience",
             "level": 2,
@@ -1243,7 +1241,20 @@
             "qty3": 1,
             "item3": "Metal Piercing",
             "upgrade": false
+        },
+        {
+            "id": 66,
+            "weapon": "Transience",
+            "level": 3,
+            "qty1": 4,
+            "item1": "Iron Ore",
+            "qty2": 2,
+            "item2": "Crystal",
+            "qty3": 1,
+            "item3": "Pyrite",
+            "upgrade": false
         }
+
     ]
   },
   {
@@ -1251,6 +1262,18 @@
     "type": "Two-Handed Sword",
     "own": true,
     "upgrades": [
+        {
+            "id": 49,
+            "weapon": "Vile Axe",
+            "level": 1,
+            "qty1": 4,
+            "item1": "Silver Ore",
+            "qty2": 1,
+            "item2": "Simple Machine",
+            "qty3": null,
+            "item3": null,
+            "upgrade": false
+        },
         {
             "id": 50,
             "weapon": "Vile Axe",
@@ -1273,18 +1296,6 @@
             "item2": "Broken Saw",
             "qty3": 1,
             "item3": "Amber",
-            "upgrade": false
-        },
-        {
-            "id": 49,
-            "weapon": "Vile Axe",
-            "level": 1,
-            "qty1": 4,
-            "item1": "Silver Ore",
-            "qty2": 1,
-            "item2": "Simple Machine",
-            "qty3": null,
-            "item3": null,
             "upgrade": false
         }
     ]

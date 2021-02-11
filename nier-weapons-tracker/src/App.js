@@ -11,6 +11,8 @@ import Typography from '@material-ui/core/Typography';
 
 // Pages
 import Weapons from './weapons';
+import Upgrades from './upgrades';
+
 
 // CSS
 import './App.css'
@@ -84,7 +86,7 @@ function App() {
           <Weapons/>
         </TabPanel>
         <TabPanel value={value} index={1} dir={theme.direction}>
-          Item Two
+          <Upgrades/>
         </TabPanel>
         <TabPanel value={value} index={2} dir={theme.direction}>
           Item Three

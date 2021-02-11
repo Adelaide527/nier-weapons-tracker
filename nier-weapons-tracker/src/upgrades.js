@@ -14,7 +14,7 @@ function Check(props) {
   )
 }
 
-export default class Weapons extends React.Component {
+export default class Upgrades extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -23,7 +23,6 @@ export default class Weapons extends React.Component {
   }
 
   componentDidMount() {
-    document.title = 'NieR Weapons';
     Axios.get('weaponsList.json') // This JSON file is in the public folder
       .then((res) => {
         // console.log(res.data);
@@ -38,9 +37,15 @@ export default class Weapons extends React.Component {
           {this.state.weapons.map((weapon) => {
             return(
               <tr>
-                <td key={weapon.name} style={{width: '90%'}}>{weapon.name}</td>
-                <td key={weapon.name + "checkboxColumn"} style={{width: '10%'}}>
-                  <Check own={weapon.own} weapon={weapon.name}/>
+                <td key={weapon.name} style={{width: '70%'}}>{weapon.name}</td>
+                <td key={weapon.name + "checkboxColumn1"} style={{width: '10%'}}>
+                  <Check own={weapon.upgrades[0].upgrade} key={weapon.name + 'upgrade1'}/>
+                </td>
+                <td key={weapon.name + "checkboxColumn2"} style={{width: '10%'}}>
+                  <Check own={weapon.upgrades[1].upgrade} key={weapon.name + 'upgrade2'}/>
+                </td>
+                <td key={weapon.name + "checkboxColumn3"} style={{width: '10%'}}>
+                  <Check own={weapon.upgrades[2].upgrade} key={weapon.name + 'upgrade3'}/>
                 </td>
               </tr>
             )
