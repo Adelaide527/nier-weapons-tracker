@@ -63,7 +63,7 @@ function App() {
   };
 
   return (
-    <div style={{backgroundColor: '#303030', color: 'white', height: '100%'}}>
+    <div style={{backgroundColor: '#303030', color: 'white', height: '100%', minHeight: '100vh'}}>
       <AppBar position="static" color="inherit" style={{backgroundColor: 'black', color: 'lightGrey'}}>
         <Tabs
           value={value}
