@@ -12,7 +12,7 @@ import Typography from '@material-ui/core/Typography';
 // Pages
 import Weapons from './weapons';
 import Upgrades from './upgrades';
-
+import Materials from './materials';
 
 // CSS
 import './App.css'
@@ -89,7 +89,7 @@ function App() {
           <Upgrades/>
         </TabPanel>
         <TabPanel value={value} index={2} dir={theme.direction}>
-          Item Three
+          <Materials/>
         </TabPanel>
       </SwipeableViews>
     </div>
