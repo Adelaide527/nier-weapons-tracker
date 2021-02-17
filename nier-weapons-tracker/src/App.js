@@ -9,6 +9,10 @@ import Tab from '@material-ui/core/Tab';
 import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
 
+// Redux imports
+import { fetchWeapons } from './redux/actions/weapons';
+import { useDispatch } from 'react-redux';
+
 // Pages
 import Weapons from './weapons';
 import Upgrades from './upgrades';
@@ -19,6 +23,9 @@ import './App.css'
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
+  const dispatch = useDispatch();
+
+  dispatch(fetchWeapons(dispatch))
 
   return (
     <div
