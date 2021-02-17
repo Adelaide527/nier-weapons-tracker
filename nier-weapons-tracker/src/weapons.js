@@ -1,52 +1,21 @@
 // React imports
 import React from "react";
-import Axios from 'axios';
-import Checkbox from '@material-ui/core/Checkbox';
+import ListWeapons from './components/listWeapons';
 
-function Check(props) {
-  if(props.own === true) {
-    return(
-      <Checkbox key={props.weapon + "checkbox"} defaultChecked />
-    )
-  }
+// Redux imports
+import { fetchWeapons } from './redux/actions/weapons';
+import { useDispatch } from 'react-redux';
+
+export default function Weapons() {
+  const dispatch = useDispatch();
+
+  dispatch(fetchWeapons(dispatch))
+
   return(
-    <Checkbox key={props.weapon + "checkbox"} />
+    <table style={{width: '100%'}}>
+      <tbody>
+        <ListWeapons/>
+      </tbody>
+    </table>
   )
-}
-
-export default class Weapons extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      weapons: [],
-    };
-  }
-
-  componentDidMount() {
-    document.title = 'NieR Weapons';
-    Axios.get('weaponsList.json') // This JSON file is in the public folder
-      .then((res) => {
-        // console.log(res.data);
-        this.setState({ weapons: res.data })
-      })
-  }
-
-  render() {
-    return(
-      <table style={{width: '100%'}}>
-        <tbody>
-          {this.state.weapons.map((weapon) => {
-            return(
-              <tr>
-                <td key={weapon.name} style={{width: '90%'}}>{weapon.name}</td>
-                <td key={weapon.name + "checkboxColumn"} style={{width: '10%'}}>
-                  <Check own={weapon.own} weapon={weapon.name}/>
-                </td>
-              </tr>
-            )
-          })}
-        </tbody>
-      </table>
-    )
-  }
 }
