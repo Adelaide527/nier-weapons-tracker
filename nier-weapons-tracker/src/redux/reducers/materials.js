@@ -1,7 +1,7 @@
 const materialReducer = (state = [], action) => {
   switch(action.type) {
     case 'GET_MATERIALS_LIST':
-      console.log(action.data);
+      // console.log(action.data);
 
       var dictionary = new Map();
 
