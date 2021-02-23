@@ -13,9 +13,9 @@ export default function Materials() {
       <tbody>
         {materials.map((material) => {
           return(
-            <tr>
-                <td key={material.item} style={{width: '90%'}}>{material.item}</td>
-                <td key={material.item + "qtymaterial"} style={{width: '10%'}}>{material.qty}</td>
+            <tr key={material.item}>
+              <td key={material.item + "name"} style={{width: '90%'}}>{material.item}</td>
+              <td key={material.item + "qtymaterial"} style={{width: '10%'}}>{material.qty}</td>
             </tr>
           )
         })}

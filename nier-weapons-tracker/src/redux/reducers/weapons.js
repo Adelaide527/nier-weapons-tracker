@@ -1,7 +1,7 @@
 const weaponReducer = (state = [], action) => {
   switch(action.type) {
     case 'FETCH_WEAPONS':
-      console.log(action.data);
+      // console.log(action.data);
       // For each weapon, we need to rearrange the upgrades to be in 1-2-3 order
       action.data.forEach(weap => {
         var upgrades = [] // empty upgrade array
@@ -19,8 +19,9 @@ const weaponReducer = (state = [], action) => {
         weap.upgrades = upgrades
       });
 
-      console.log(action.data);
+      // console.log(action.data);
       return action.data;
+
     case 'UPDATE_WEAPON_OWNERSHIP':
       // Copy state
       let weaponsArray = state;
@@ -35,6 +36,25 @@ const weaponReducer = (state = [], action) => {
       console.log(weaponsArray);
 
       return weaponsArray;
+
+    case 'UPDATE_UPGRADE':
+      // copy state
+      var weaponsArr = state;
+      // find weapon whose upgrade we're updating
+      var weapon2 = weaponsArr.filter( w =>  w.name === action.upgraded.weapon )
+      weapon2 = weapon2[0]
+      // find the index of that weapon
+      let ind = weaponsArr.indexOf(weapon2)
+      // then find which upgrade needs to be updated
+      var upgraded = weapon2.upgrades.filter( upgrade => upgrade.id === action.id )
+      // get index of the updated upgrade
+      let upgInd = weapon2.upgrades.indexOf(upgraded[0])
+      // update the upgrade data within the weapon
+      weapon2.upgrades[upgInd] = action.upgraded
+      // Then we need to update that info in state
+      weaponsArr[ind] = weapon2
+      
+      return weaponsArr;
     default:
       return state;
   }

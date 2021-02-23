@@ -6,12 +6,12 @@ import { getMaterialsList } from '../actions/materials'
 
 // Backend running from other project. 
 // SQL Database hosted on AWS, backend written with SpringBoot
-const api = 'http://localhost:8080/weapons/'
+const api = 'http://localhost:8080/'
 
 // This action will get the list of weapons from the api
 export const fetchWeapons = () => {
   return function(dispatch) {
-    Axios.get(api) // localhost/weapons/
+    Axios.get(api + "weapons/") // localhost/weapons/
       .then((res) => {
         // Call materials' action to start sorting
         dispatch(getMaterialsList(res.data))
@@ -29,12 +29,30 @@ export const fetchWeapons = () => {
 //     Then redux state will be updated as well in the reducer
 export const updateWeaponOwnership = (weapon) => {
   return function(dispatch) {
-    Axios.post(api + weapon) // localhost/weapons/{weapon}
+    Axios.post(api + "weapons/" + weapon) // localhost/weapons/{weapon}
       .then((res) => {
         // dispatch to go to the reducer
         dispatch({
           type: 'UPDATE_WEAPON_OWNERSHIP',
           weapon: weapon,
+        })
+      })
+  }
+}
+
+// This action will update the upgrade completion of the passed in upgrade id
+// Ex: Upgrade id 1 -> api will update to !upgrade (opposite of what completion was already)
+//     Then redux state will be updated as well in the reducer
+export const updateUpgrade = (id) => {
+  return function(dispatch) {
+    Axios.post(api + "materials/" + id) // localhost/materials/{id}
+      .then((res) => {
+        console.log(res.data);
+        // dispatch to go to the reducer
+        dispatch({
+          type: 'UPDATE_UPGRADE',
+          upgraded: res.data, // data contains the corrected upgrade
+          id: parseInt(id),
         })
       })
   }

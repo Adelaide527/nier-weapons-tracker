@@ -6,6 +6,7 @@ import Checkbox from '@material-ui/core/Checkbox';
 import { useDispatch, useSelector } from 'react-redux';
 import { updateWeaponOwnership } from '../redux/actions/weapons';
 
+// This is the checkbox for each weapon
 function Check(props) {
   const handleCheck = async (event) => {
     props.dispatch(updateWeaponOwnership(event.target.value))
@@ -28,8 +29,8 @@ export default function ListWeapons() {
   return (
     weapons.map((weapon) => {
       return(
-        <tr>
-          <td key={weapon.name} style={{width: '90%'}}>{weapon.name}</td>
+        <tr key={weapon.name}>
+          <td key={weapon.name + "name"} style={{width: '90%'}}>{weapon.name}</td>
           <td key={weapon.name + "checkboxColumn"} style={{width: '10%'}}>
             <Check own={weapon.own} weapon={weapon.name} dispatch={dispatch}/>
           </td>

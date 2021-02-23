@@ -68,7 +68,7 @@ const materialReducer = (state = [], action) => {
       const array = Array.from(dictionary, ([item, qty]) => ({item, qty}));
 
       
-      return state = array;
+      return array;
 
     default:
       return state;
