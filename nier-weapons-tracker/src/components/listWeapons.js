@@ -11,20 +11,23 @@ function Check(props) {
   const handleCheck = async (event) => {
     props.dispatch(updateWeaponOwnership(event.target.value))
   }
-
+  
+  // If the weapon is owned already, it will start with a checked box
   if(props.own === true) {
     return(
       <Checkbox value={props.weapon} key={props.weapon + "checkbox"} onChange={handleCheck} defaultChecked />
     )
   }
+  // If the weapon is not owned, it starts with an unchecked box
   return(
     <Checkbox value={props.weapon} key={props.weapon + "checkbox"} onChange={handleCheck} />
   )
 }
 
+// This funciton lists all the weapons inside of a table
 export default function ListWeapons() {
   const dispatch = useDispatch();
-  const weapons = useSelector(state => state.weapons)
+  const weapons = useSelector(state => state.weapons) // recieve list of weapons from Redux store
 
   return (
     weapons.map((weapon) => {
